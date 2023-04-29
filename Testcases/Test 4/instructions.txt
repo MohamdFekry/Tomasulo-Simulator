@@ -1,0 +1,6 @@
+LOAD R1, 5(R0)
+LOAD R2, 5(R0)
+JAL label
+MUL R3, R1, R1
+label: NAND R6, R4, R2
+RET
